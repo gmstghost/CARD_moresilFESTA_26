@@ -1,7 +1,6 @@
 import os
 import time
 import random
-import math
 import urllib.request
 
 import cv2
