@@ -1,0 +1,20 @@
+{
+    "만세! (양팔 위로)": {
+        "left_elbow": 170, "right_elbow": 170,
+        "left_shoulder": 170, "right_shoulder": 170,
+        "left_hip": 175, "right_hip": 175,
+        "left_knee": 175, "right_knee": 175
+    },
+    "차렷 자세": {
+        "left_elbow": 170, "right_elbow": 170,
+        "left_shoulder": 15, "right_shoulder": 15,
+        "left_hip": 175, "right_hip": 175,
+        "left_knee": 175, "right_knee": 175
+    },
+    "T-포즈 (양팔 벌리기)": {
+        "left_elbow": 170, "right_elbow": 170,
+        "left_shoulder": 90, "right_shoulder": 90,
+        "left_hip": 175, "right_hip": 175,
+        "left_knee": 175, "right_knee": 175
+    }
+}
