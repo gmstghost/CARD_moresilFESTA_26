@@ -16,5 +16,17 @@
         "left_shoulder": 90, "right_shoulder": 90,
         "left_hip": 175, "right_hip": 175,
         "left_knee": 175, "right_knee": 175
+    },
+    "하트 만들기 (머리 위)": {
+        "left_elbow": 60, "right_elbow": 60,
+        "left_shoulder": 160, "right_shoulder": 160,
+        "left_hip": 175, "right_hip": 175,
+        "left_knee": 175, "right_knee": 175
+    },
+    "짝다리 (오른쪽 무릎 들기)": {
+        "left_elbow": 170, "right_elbow": 170,
+        "left_shoulder": 15, "right_shoulder": 15,
+        "left_hip": 175, "right_hip": 90,
+        "left_knee": 175, "right_knee": 90
     }
 }
