@@ -28,5 +28,11 @@
         "left_shoulder": 15, "right_shoulder": 15,
         "left_hip": 175, "right_hip": 90,
         "left_knee": 175, "right_knee": 90
+    },
+    "반팔짱": {
+        "left_elbow": 170, "right_elbow": 75,
+        "left_shoulder": 0, "right_shoulder": 0,
+        "left_hip": 153, "right_hip": 175,
+        "left_knee": 175, "right_knee": 175
     }
 }

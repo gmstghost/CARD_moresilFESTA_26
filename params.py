@@ -11,7 +11,7 @@ MODEL_URL = (
 # 1. 게임 설정값
 # ==================================================================
 CHALLENGE_TIME = 8          # 도전 제한시간(초)
-SUCCESS_THRESHOLD = 80      # 성공 기준 일치율(%)
+SUCCESS_THRESHOLD = 90      # 성공 기준 일치율(%)
 COUNTDOWN_SEC = 3           # 시작 전 카운트다운(초)
 COIN_PRICE = 500            # 원 (화면 표시용 - 실제 결제는 하드웨어 연동 필요)
 RESULT_DISPLAY_SEC = 4      # 결과 화면 유지 시간(초)
@@ -24,7 +24,7 @@ MIN_VISIBILITY = 0.5        # 이보다 가시성이 낮은 관절은 '안 보�
 ANGLE_TOLERANCE = 90.0      # 목표 각도와 이만큼 차이 나면 해당 관절 0점
 
 # 카메라 / 창
-CAMERA_INDEX = 1            # USB 웹캠 번호 (노트북 내장 카메라는 보통 0)
+CAMERA_INDEX = 0            # USB 웹캠 번호 (노트북 내장 카메라는 보통 0)
 CAMERA_WIDTH, CAMERA_HEIGHT = 1280, 720
 WINDOW_NAME = "포즈를 맞춰라!"
 WINDOW_POS = (1920, 0)      # 보조 모니터 위치 (주 모니터 가로 해상도)
@@ -60,44 +60,9 @@ POSE_CONNECTIONS = [
     (24, 26), (26, 28), (28, 30), (28, 32), (30, 32),
 ]
 
-# ==================================================================
-# 3. 목표 포즈 정의 (관절별 "이상적인 각도")
-# ==================================================================
-TARGET_POSES = {
-    "만세! (양팔 위로)": {
-        "left_elbow": 170, "right_elbow": 170,
-        "left_shoulder": 170, "right_shoulder": 170,
-        "left_hip": 175, "right_hip": 175,
-        "left_knee": 175, "right_knee": 175,
-    },
-    "차렷 자세": {
-        "left_elbow": 170, "right_elbow": 170,
-        "left_shoulder": 15, "right_shoulder": 15,
-        "left_hip": 175, "right_hip": 175,
-        "left_knee": 175, "right_knee": 175,
-    },
-    "T-포즈 (양팔 벌리기)": {
-        "left_elbow": 170, "right_elbow": 170,
-        "left_shoulder": 90, "right_shoulder": 90,
-        "left_hip": 175, "right_hip": 175,
-        "left_knee": 175, "right_knee": 175,
-    },
-    "하트 만들기 (머리 위)": {
-        "left_elbow": 60, "right_elbow": 60,
-        "left_shoulder": 160, "right_shoulder": 160,
-        "left_hip": 175, "right_hip": 175,
-        "left_knee": 175, "right_knee": 175,
-    },
-    "짝다리 (오른쪽 무릎 들기)": {
-        "left_elbow": 170, "right_elbow": 170,
-        "left_shoulder": 15, "right_shoulder": 15,
-        "left_hip": 175, "right_hip": 90,
-        "left_knee": 175, "right_knee": 90,
-    },
-}
 
 # ==================================================================
-# 4. 게임 상태
+# 3. 게임 상태
 # ==================================================================
 STATE_WAIT_COIN = "WAIT_COIN"
 STATE_COUNTDOWN = "COUNTDOWN"
